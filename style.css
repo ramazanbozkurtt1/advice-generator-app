@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+}
+h5 > span {
+    margin-left: 0.4rem;
+}
+.hide-1{
+    display: none;
+}
+.heading{
+    letter-spacing: 0.25rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    color: hsl(150, 100%, 66%);
+}
+.card{
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    border-radius: 1rem;
+    max-width: 540px;
+    padding: 2.5rem;
+    position: relative;
+}
+.paragrafh{
+    margin-bottom: 1rem;
+    color: hsl(193, 38%, 86%);
+}
+.divider{
+    margin-bottom: 4rem;
+}
+.icon{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 60px; 
+    width: 60px; 
+    background-color:  hsl(150, 100%, 66%); 
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.icon:hover{
+    box-shadow: 0 0 25px 0 hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+@media  (max-width: 570px) {
+    .card{
+        max-width: 360px;
+        padding: 2rem;
+    }
+    .paragrafh{
+        margin-bottom: 1rem;
+    }
+}
