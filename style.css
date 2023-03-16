@@ -61,7 +61,7 @@ h5 > span {
 }
 @media  (max-width: 570px) {
     .card{
-        max-width: 360px;
+        max-width: 350px;
         padding: 2rem;
     }
     .paragrafh{
