@@ -10,4 +10,5 @@ const fetchAdvice = async () => {
     paragrafh.textContent = slip.advice
 };
 
+addEventListener('DOMContentLoaded',fetchAdvice);
 button.addEventListener('click',fetchAdvice);
